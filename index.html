@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanrio HTML Email</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f6f9fc;
+    }
+
+    p {
+      display: block;
+    }
+
+    tr {
+      display: table-row;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    h1,
+    h2 {
+      color: black;
+      margin: 1.5rem 1.75rem 0.25rem 1.75rem
+    }
+
+    .button {
+      background-color: #388cda;
+      border-radius: 0.6em;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1;
+      margin: 20px;
+      padding: 1.2em 2.8em;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #f6f9fc;
+    }
+
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #f6f9fc;
+    }
+
+    .webkit {
+      max-width: 600px;
+      background-color: #ffffff;
+    }
+
+    .outer {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      border-spacing: 0;
+      font-family: sans-serif;
+      color: #ffffff;
+    }
+
+    .three-columns {
+      font-size: 0;
+      text-align: center;
+    }
+
+    .three-columns .column {
+      width: 90%;
+      margin: 1rem;
+      max-width: 150px;
+      display: inline-block;
+      vertical-align: top;
+      min-height: 300px;
+    }
+
+    .three-columns .column .info {
+      height: 100px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+
+    .padding {
+      padding: 15px;
+    }
+
+    .three-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #9d9d9d;
+      font-size: 16px
+    }
+
+    a.btn {
+      color: #ffffff
+    }
+
+    a.Unsubscribe {
+      color: #201cdb;
+      font-size: 16px
+    }
+
+    .divider {
+      border: 2px solid #000000;
+      margin-top: 2rem;
+      margin-right: 4rem;
+      margin-left: 4rem;
+      border-width: 1px;
+    }
+
+    @media screen and (max-width: 600px) {
+      img.third-img {
+        /* width: 150px !important; */
+        width:160;
+        max-width: 200px !important;
+        border-radius: 1rem 1rem 0 0 !important;
+        margin-top: 0 !important;
+      }
+
+      .padding {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+      }
+
+      img.banner-img {
+        width: 430px !important;
+        /* max-width: 300px !important */
+      }
+    }
+
+    @media screen and (max-width: 400px) {}
+  </style>
+</head>
+
+<body>
+  <center class="wrapper">
+    <div class="webkit">
+      <table class="outer" align="center">
+        <tr>
+          <td>
+            <table width="100%" style="border-spacing: 0">
+              <tr>
+                <td style="
+                      background-color: #FFC0CB;
+                      padding: 10px;
+                      text-align: center;
+                      ">
+                  <a href="https://www.sanrio.com/"><img
+                      src="https://ci3.googleusercontent.com/proxy/3tCCFu76F4iMIKLrw5PRyvJog00CpUz7khLM85zsdJiIr8XMqwnNa8U5AOMR-UnfKLy1iMsZYaDDVKBurtG8NrqjiQUQ4KVJFsDiV9b3YLlw4OVHuoChOclvuNNYJL40DIvCH66wNkt7BUmYdZ65GEIdKAIWVvc=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/67ac92ef-d2d6-4625-ae24-34017d8b76bf.png"
+                      width="120" alt="sanrio-logo" title="logo" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">
+
+                  <img class="banner-img" src="https://ci5.googleusercontent.com/proxy/4j1ZxCG7CvOup-hziE3UjxhnRcc34Q8OqG8tlAM4t5V72tJN31-7PfNgycZHx5zLao91hl5gee9R_Ftbqy5vQDK8GtU_Zseto9Qz8hJm-B9qS-tEDnL6vMkLcmZUm_LxuOSXAL0Fb8hh2ENh6pIzfcPr3xJBoB1G=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/79c0f856-98bd-4362-8e35-2a2daa7d4d86.jpeg" alt="free shipping on orders over $100"
+                    width="600"
+                    style="max-width: 120; line-height: 100%; height: auto; text-decoration: none; display: block; width: 120;" />
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">
+                  <a href="https://www.sanrio.com/">
+                    <img class="banner-img"
+                      src="https://ci3.googleusercontent.com/proxy/ydHtzpNTINqgtYRDnTbsnQNc5bkBmYpg5zwEmtEOIrUlOhdmXR7VdMuecPTd1wkLjjAe6qJA0DsBIa9bet-z1226GlOg28e6HM0ZYpFn6h5QyErw6mraUzzl4tnlV4d42uepXHmcL7n4qpk58K-PHhT1S6DR1nQ=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/4dd058bb-5fbb-42a0-8627-4dbcc46b393c.gif"
+                      alt="sunny state of mind banner top" width="600"
+                      style="max-width: 100%; line-height: 100%; height: auto; text-decoration: none; display: block; width: 100%;" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">
+                  <a
+                    href="https://www.sanrio.com/">
+                    <img class="banner-img"
+                      src="https://ci6.googleusercontent.com/proxy/mSin8-eL3-xwbIqwCRjWfm8X8xd2TjEW3A-jWIALQFr9NrOQ8hm0FlzU35v7TmEmfL7BTXlVxgn86M3iLUVtbvau1YcZPhGruHCFkv1WabaTYHkDe12c631Q_KxzgYFeaxKqfIYSF_VTAJC4HFiLo64o1x-4hU4=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/1bba14b9-74f6-40b4-b5da-acec8f724291.gif"
+                      alt="beat contest image" width="600"
+                      style="max-width: 100%; line-height: 100%; height: auto; text-decoration: none; display: block; width: 100%;" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">
+                  <a
+                    href="https://www.sanrio.com/">
+                    <img class="banner-img"
+                      src="https://ci5.googleusercontent.com/proxy/jNEngQ1etEB1bfV0prHbXDRFnvVhk4Ui7srsnXxv5aZxENDPiWZfr4XXeiRbVMyHe2DHMH-uncO9iKGPP9pTX2cZXjx-tMWh-QQT3O1UvVxvEAmH0nP_C7abnLuSqkonoSjdVWFh8TDNC2tDKGzikzgP4WBq67Ij=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/a30098f0-94a3-4f6b-a1a9-d4da8ef5537f.jpeg"
+                      alt="beat contest image" width="600"
+                      style="max-width: 100%; line-height: 100%; height: auto; text-decoration: none; display: block; width: 100%;" />
+                  </a>
+                </td>
+              </tr>
+              <!-- ----------------------------------------------------- -->
+
+              <!-- ----------------------------------------------------- -->
+              <tr>
+                <td class="three-columns">
+
+                  <table class="column">
+                    <tr>
+                      <td class="padding" style="background-color:#5a5858; border-radius: 1rem;">
+
+                        <table class="content">
+                          <tr>
+                            <td><a href="#"><img class="third-img"
+                                  src="https://ci5.googleusercontent.com/proxy/fDz80ZUipunMcVyyputQwfuuVjp7CG7pfMWKRdi3eNKFcS7TL8NfqiZqBqNow-qLBjJ5G7xZkAnvU04q1BrlwvvlC_htxy11QRTbfHcvdP28wblXy-5MSiyaIRFlOLQUEPWCCAVCHccJUxTrbhlflwFh_f4GmsPu=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/b4e1f23c-439b-4365-97b9-603ec48d0020.jpeg"
+                                  width="150" alt="Locrian mode image"
+                                  style="max-width:120px; border-radius:1rem; margin-top: 0.5rem;"></a>
+                            </td>
+                          </tr>
+                          <tr class="info">
+                            <td style="padding: 10px;">
+                              <p class="description">$29.95</p>
+                              <a href="#">SHOP</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding" style="background-color:#5a5858; border-radius: 1rem;">
+
+                        <table class="content">
+                          <tr>
+                            <td><a href="#"><img class="third-img"
+                                  src="https://ci4.googleusercontent.com/proxy/_Fr2vZRJSosFAYuvxjpRtkJAoqRHKZWodSb_ivRWXosXYfr8OTOTIHTofgOzwOeOeRsVxQMM9U0YG_bHff-ksQicsGp9QKoD26FrpmA7W-HDReLUhZx2Es1YOueHEKK1YjTvV9h6LYkb5hz2jFzBrcFsYjq0liAp=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/35c0ad51-f2f5-4bea-8e7d-dce52692c14e.jpeg"
+                                  width="150" alt="Locrian mode image"
+                                  style="max-width:120px; border-radius:1rem; margin-top: 0.5rem;"></a>
+                            </td>
+                          </tr>
+                          <tr class="info">
+                            <td style="padding: 10px;">
+
+                              <p class="description">$24.95</p>
+                              <a href="#">SHOP</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding" style="background-color:#5a5858; border-radius: 1rem;">
+
+                        <table class="content">
+                          <tr>
+                            <td><a href="#"><img class="third-img"
+                                  src="https://ci5.googleusercontent.com/proxy/3f0FuWaFs3_7XCpSd6q5rnxoqH0yDeKJKWcpRxjtF7lLXa1JZgaNYOj60KQ51rJoACUtJGO6emAlGQFpx-t6SoBZQOeX1h5IBvNVhN9Ky9WzTMHteEBYG-FdqHJrRyJxbF6s3hBEIGckuT_lU88ua0HtKnPce7xQ=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/eb25bef2-dfcc-4d92-8f63-199ba631795a.jpeg"
+                                  width="150" alt=""
+                                  style="max-width:120px; border-radius:1rem; margin-top: 0.5rem;"></a></td>
+                          </tr>
+                          <tr class="info">
+                            <td style="padding: 10px;">
+
+                              <p class="description">$19.95</p>
+                              <a href="#">SHOP</a>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+              <!-- ----------------------------------------------------- -->
+
+              <!-- ----------------------------------------------------- -->
+
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="text-align: center;">
+            <a
+              href="https://www.sanrio.com/">
+              <img class="banner-img"
+                src="https://ci4.googleusercontent.com/proxy/x-yC_RlcsGXkd9gN6expqH50nhcFmanWZAjGTTuEPkwGMknem5kRhtm8Aj5QgcWFdlCUx8gnc49veP7qRZN14kvkhA4yikanuJZfkBNyWXBhmjspdVNrOvqnwQYtBcgIUSebNBQGX1akMXXmvhEWYMUJuVwfbjA8=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/4862543b-1e74-44b6-978b-2265022e5aa6.jpeg"
+                alt="beat contest image" width="600"
+                style="max-width: 100%; line-height: 100%; height: auto; text-decoration: none; display: block; width: 100%;" />
+            </a>
+          </td>
+        </tr>
+
+        <!-- ----------------------------------------------------- -->
+        <tr>
+          <td class="three-columns">
+
+            <table class="column">
+              <tr>
+                <td class="padding" style="background-color:#5a5858; border-radius: 1rem;">
+
+                  <table class="content">
+                    <tr>
+                      <td><a href="https://www.sanrio.com/"><img class="third-img"
+                            src="https://ci4.googleusercontent.com/proxy/1yf4LbEPNUmCwlTFXv26rZQ2uAz2GknwdUN7yl4cNvxFFrTM11r2yzNpiziwhV8d02huCvcImE_P9tPF0-chNcXWCLCs4RmHkAp6KO4OOI9KugRpJuQwAURREtEzDhqfdiQhP9EduTBcj0waRovHjlaWA5aIdmSF=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/72a7fea6-6aa1-4fbc-a70e-66ce0f4b928f.jpeg"
+                            width="150" alt="chi chai monchan bucket hat"
+                            style="max-width:120px; border-radius:1rem; margin-top: 0.5rem;"></a>
+                      </td>
+                    </tr>
+                    <tr class="info">
+                      <td style="padding: 10px;">
+                        <p class="description">$29.95</p>
+                        <a href="https://www.sanrio.com/">SHOP</a>
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+            <table class="column">
+              <tr>
+                <td class="padding" style="background-color:#5a5858; border-radius: 1rem;">
+
+                  <table class="content">
+                    <tr>
+                      <td><a href="https://www.sanrio.com/"><img class="third-img"
+                            src="https://ci5.googleusercontent.com/proxy/beCbjrcDsPBn7Bi3KysEy-CgPE5dTniv5Vh6-b_yBQHstQqqZ9IMFjLSRncZGhtp6kkBtSKghRVnumCTcvBOzVVgTc8ziu9zARsBWk-oE_a9YE4hXlk8yd9pjUJArxd8SIMW28gJTHcMFaZR-nM-Jl7qux7mSLj1=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/c3c975a0-9e05-4bbf-b326-585422a867dd.jpeg"
+                            width="150" alt="Locrian mode image"
+                            style="max-width:120px; border-radius:1rem; margin-top: 0.5rem;"></a>
+                      </td>
+                    </tr>
+                    <tr class="info">
+                      <td style="padding: 10px;">
+
+                        <p class="description">$24.95</p>
+                        <a href="https://www.sanrio.com/">SHOP</a>
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+            <table class="column">
+              <tr>
+                <td class="padding" style="background-color:#5a5858; border-radius: 1rem;">
+
+                  <table class="content">
+                    <tr>
+                      <td><a href="https://www.sanrio.com/"><img class="third-img"
+                            src="https://ci5.googleusercontent.com/proxy/x4AmCkc_aauBc33228p7TlYMJKCAfGtauGYvRNlvUJLMk0nx3UseIO4txP3pMV-oGVqQBScRVxn2c82KhMjScS5lMkevsEbcPkSLs4_SEIZcwo4jcknpNM-vL4MUeWn2XE6P75hvpfewGruDzxlwYgLYb5undQnZ=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/e514a342-fd8f-4178-9818-24ed8c991428.jpeg"
+                            width="150" alt="" style="max-width:120px; border-radius:1rem; margin-top: 0.5rem;"></a>
+                      </td>
+                    </tr>
+                    <tr class="info">
+                      <td style="padding: 10px;">
+
+                        <p class="description">$19.95</p>
+                        <a href="https://www.sanrio.com/">SHOP</a>
+                      </td>
+                    </tr>
+                  </table>
+
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+        <!-- ----------------------------------------------------- -->
+        <tr>
+          <td style="text-align: center;">
+            <a
+              href="https://www.sanrio.com/">
+              <img class="banner-img"
+                src="https://ci5.googleusercontent.com/proxy/9ITIcFO6C-a60dRNHCsrfVTJSg7Hpr2J5fo-JRgzhkXg8057m0DPrsyfM8qSpeDWObKQRxiRPGDzgihYFURGn7DMUUO9506_8q4hf7I--Y6fqp_DtkFO79ePIQLkBXdW8FmX_ogzK708Tfp6sCFBDPJA7FiWEp8D=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/840bc462-6e7d-4f4c-a522-090a01682973.jpeg "
+                alt="beat contest image" width="600"
+                style="max-width: 100%; line-height: 100%; height: auto; text-decoration: none; display: block; width: 100%;" />
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <table width="100%" style="border-spacing: 0;">
+              <tr>
+                <td style="background-color: #FFC0CB;padding: 15px;text-align:center">
+                  <p style="font-size: 18px;color:#ffffff;margin-bottom: 13px;">Connect with us</p>
+                  <a href="#"><img
+                      src="https://github.com/ivsir/splice-email-template/blob/master/assets/images/white-facebook.png?raw=true"
+                      width="30" alt="facebook"></a>
+                  <a href="#"><img
+                      src="https://github.com/ivsir/splice-email-template/blob/master/assets/images/white-twitter.png?raw=true"
+                      width="30" alt="twitter"></a>
+                  <a href="#"><img
+                      src="https://github.com/ivsir/splice-email-template/blob/master/assets/images/white-youtube.png?raw=true"
+                      width="30" alt="youtube"></a>
+                  <a href="#"><img
+                      src="https://github.com/ivsir/splice-email-template/blob/master/assets/images/white-instagram2.PNG?raw=true"
+                      width="24" style="margin: 4px" alt="instagram"></a>
+                  <a href="#"><img
+                      src="https://github.com/ivsir/splice-email-template/blob/master/assets/images/white-discord.png?raw=true"
+                      width="27" style="margin: 0 4px 4px 4px;" alt="discord"></a>
+                  <a href="#"><img
+                      src="https://github.com/ivsir/splice-email-template/blob/master/assets/images/white-twitch.PNG?raw=true"
+                      width="22" style="margin: 0 3px 0 3px;" alt="twitch"></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td style="background-color: #FFC0CB;">
+            <table width="100%" style="border-spacing: 0;">
+
+              <tr>
+                <td style="padding:10px;text-align:center;padding-bottom: 0px;">
+                  <a href="https://www.sanrio.com/"><img
+                      src="https://ci3.googleusercontent.com/proxy/3tCCFu76F4iMIKLrw5PRyvJog00CpUz7khLM85zsdJiIr8XMqwnNa8U5AOMR-UnfKLy1iMsZYaDDVKBurtG8NrqjiQUQ4KVJFsDiV9b3YLlw4OVHuoChOclvuNNYJL40DIvCH66wNkt7BUmYdZ65GEIdKAIWVvc=s0-d-e1-ft#https://d3k81ch9hvuctc.cloudfront.net/company/WN3mPz/images/67ac92ef-d2d6-4625-ae24-34017d8b76bf.png"
+                      width="120" alt="sanrio-logo" title="logo" />
+                  </a>
+                  <p style="font-size: 16px;margin-top: 18px;">
+                    114 5th Avenue, 12th Floor
+                    <br>
+                    New York, NY
+                    <br>
+                    10011
+                  </p>
+                  <p><a href="mailto:support@splice.com">support@splice.com</a></p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:10px;text-align:center;">
+                  <p>No longer interested? <a class="Unsubscribe" href="mailto:support@splice.com">Unsubscribe </a></p>
+                  <p></p>
+                </td>
+              </tr>
+              <tr>
+                <td height="20" style="background-color: #FFC0CB;"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </center>
+</body>
+
+</html>
